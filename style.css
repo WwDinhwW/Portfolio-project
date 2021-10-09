@@ -107,6 +107,11 @@ a {
   font-weight: 600;
 }
 
+.dark {
+  background-color: black;
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   .about-me-container {
     flex-direction: column;

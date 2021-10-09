@@ -10,13 +10,14 @@
   <nav>
     <h2 id="logo">Ada Lovelace</h2>
     <ul>
+      <li><button onclick="darkMode()">Switch mode</button></li>
       <li><a href="#about">About Me</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 
-  <main>
+  <main id="main">
     <section id="about">
       <div id="about-text-container">
         <h2>About Me</h2>
@@ -62,5 +63,11 @@
       </details>
   </main>
   <footer>Made with <span class="heart">♥</span> in London</footer>
+  <script>
+    function darkMode () {
+      let element = document.body;
+      element.classList.toggle("dark");
+    }
+  </script>
 </body>
 </html>
